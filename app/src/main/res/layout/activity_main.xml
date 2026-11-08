@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvResultado"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Presiona el botón para iniciar"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="32dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnIniciar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Iniciar Conteo"-->
+<!--        android:textSize="16sp" />-->
+
+<!--    EJERCICIO 2-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvProgreso"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Progreso: 0%"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="24dp" />-->
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:max="100"-->
+<!--        android:progress="0"-->
+<!--        android:layout_marginBottom="32dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnIniciarCarga"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Iniciar Carga"-->
+<!--        android:textSize="16sp" />-->
+
+<!--    EJERCICIO 3-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvPares"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Pares: "-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginBottom="16dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvImpares"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Impares: "-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginBottom="16dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvLetras"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Letras: "-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginBottom="32dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnIniciarHilos"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Iniciar 3 Hilos"-->
+<!--        android:textSize="16sp" />-->
+
+<!--    EJERCICIO 4-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvResultadoTarea"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Resultado de la tarea aparecerá aquí"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginBottom="32dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnEjecutarTarea"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Ejecutar MiTarea (N=100)"-->
+<!--        android:textSize="16sp" />-->
+
+<!--    EJERCICIO 5-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnCorrutina"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Lanzar Corrutina"-->
+<!--        android:textSize="16sp" />-->
+
+<!--    EJERCICIO 6-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvSensor"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Valor del Sensor: &#45;&#45;"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="32dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnIniciarSensor"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Iniciar Sensor"-->
+<!--        android:layout_marginBottom="12dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnDetenerSensor"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Detener Sensor"-->
+<!--        android:backgroundTint="#D32F2F" />-->
+
+<!--    EJERCICIO 7-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvTactil"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Toca y desliza la pantalla"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center" />-->
+
+<!--    EJERCICIO 8-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvCoordenadas"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Toca la pantalla para ver X e Y"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center" />-->
+
+<!--    EJERCICIO 9-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Toca el cuadro para cambiar su color"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginBottom="24dp" />-->
+
+<!--    &lt;!&ndash; Llamamos a nuestra vista personalizada &ndash;&gt;-->
+<!--    <com.example.hilosejecucion.MiVistaColorida-->
+<!--        android:id="@+id/vistaColorida"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="250dp" />-->
+
+<!--    EJERCICIO 10-->
+
+    <!-- Nuestra ImageView que actuará como pelota -->
+<!--    <ImageView-->
+<!--        android:id="@+id/ivPelota"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:src="@drawable/pelota_circulo"-->
+<!--        android:contentDescription="Pelota arrastrable" />-->
+
+<!--    EJERCICIO 11-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Usa tu dedo para dibujar en la pantalla"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="12dp" />-->
+
+<!--    &lt;!&ndash; Vista de dibujo personalizada &ndash;&gt;-->
+<!--    <com.example.hilosejecucion.VistaDeDibujo-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#FAFAFA" />-->
+
+<!--    EJERCICIO 12-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvGesto"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Haz un gesto (Tap, Long Press o Fling)"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center" />-->
+
+<!--    EJERCICIO 13-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvMultitouch"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Coloca varios dedos en la pantalla"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center" />-->
+
+<!--    EJERCICIO 14-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Dibuja con varios dedos simultáneamente"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="12dp" />-->
+
+<!--    &lt;!&ndash; Vista Multitáctil de Dibujo &ndash;&gt;-->
+<!--    <com.example.hilosejecucion.VistaMultitadibujo-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#FAFAFA" />-->
+
+<!--    EJERCICIO 15-->
+
+    <ImageView
+        android:id="@+id/ivZoom"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pelota_circulo"
+        android:contentDescription="Imagen con zoom por pellizco" />
+
+</LinearLayout>
